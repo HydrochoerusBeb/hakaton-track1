@@ -87,13 +87,14 @@ loadCSV()
             setTimeout(function () {
                 const from = document.getElementById('from').value.toLowerCase().trim();
                 const towhere = document.getElementById('towhere').value.toLowerCase().trim();
+                const type = document.getElementById('type').value.toLowerCase().trim();
                 const table = document.getElementById('table');
 
                 const filteredItems = items.filter(item => {
                     const itemFrom = item.from.toLowerCase();
                     const itemTowhere = item.towhere.toLowerCase();
-                    const itemDate = item.date;
-                    return itemFrom.includes(from) && itemTowhere.includes(towhere);
+                    const itemType = item.type.toLowerCase();
+                    return itemFrom.includes(from) && itemTowhere.includes(towhere) && itemType.includes(type);
                 });
 
                 table.innerHTML = ''; // очищаем таблицу перед добавлением новых элементов

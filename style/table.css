@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  width: 1000px;
+}
+
+.cell {
+  max-width: 250px;
+  min-width: 100px;
+  width: 100%;
+  outline: 1px solid #000;
+  padding: 0 5px;
+}/*# sourceMappingURL=table.css.map */

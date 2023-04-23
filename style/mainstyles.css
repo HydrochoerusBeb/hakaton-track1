@@ -1,0 +1,107 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf0f8;
+}
+
+.mrgn25prc{
+    margin-left: 25%;
+}
+.mrgnlft10prc{
+    margin-left: 30%;
+}
+
+.mrgntp20px{
+    margin-top: 40px;
+}
+
+.bgcStrVIol{
+    background-color: #827dc9
+}
+.bgcMntGrn{
+    background-color: #76b191;
+}
+.footer{
+    height:250px
+}
+
+.df{
+    display: flex;
+}
+.flxdrctClmn{
+    flex-direction: column;
+}
+.flxdrctRow{
+    flex-direction: row;
+}
+.spcbtwn{
+    justify-content: space-between;
+}
+.spcarnd{
+    justify-content: space-around;
+}
+.mrgnBt25px{
+    margin-bottom: 40px;
+}
+.mrgnTop25px{
+    margin-top: 40px;
+}
+.mrgnRght25px{
+    margin-right: 15px;
+}
+.mrgnLft25px{
+    margin-left: 15px;
+}
+.mrgnTopAut{
+    margin-top: auto;
+}
+.minHght{
+    min-height: 100vh;
+}
+.mrgnBt20px{
+    margin-bottom: 100px;
+}
+.mrgnLft30px{
+    margin-left: 30px;
+}
+.mrgnLftAut{
+    margin-left: auto;
+}
+.mrgnRghtAut{
+    margin-right: auto;
+}
+.mrgnRght30px{
+    margin-right: 30px;
+}
+.wdth607px{
+    width: 608px;
+}
+.wdth1000px{
+    width: 1000px;
+}
+.minHght100px{
+    min-height: 100px;
+}
+.minWdth100px{
+    min-width: 100px;
+}
+.txtAlignCent{
+    text-align: center;
+}
+.dsplyRds20prc{
+    border-radius: 20%;
+}
+
+.minWdth800px{
+    min-width: 600px;
+}
+
+.wdth100px{
+    width: 100px;   
+}
+.hght100px{
+    height: 100px;
+}
+
+
+
